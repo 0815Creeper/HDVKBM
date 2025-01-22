@@ -1,0 +1,463 @@
+400 0 1 0           
+8 KiM GmbH 12 ACIS 30.0 NT 24 Sat Jan 18 11:27:50 2025 
+1 9.9999999999999995e-007 1e-010 
+body $1 $2 $-1 $-1 #
+string_attrib-name_attrib-gen-attrib $-1 $3 $-1 $0 keep keep_kept ignore 17 ATTRIB_XACIS_NAME 39 item_0062758_Winkel-Abdeckkappe 8 80x80 #
+lump $-1 $-1 $4 $0 #
+rgb_color-st-attrib $-1 $5 $1 $0 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+shell $-1 $-1 $-1 $6 $-1 $2 #
+render-rbase-attrib $-1 $-1 $3 $0 $7 $-1 0 1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+face $8 $9 $10 $4 $-1 $11 forward single #
+rh_material-rh_entity $-1 4 5 plain 5 color -4 0.5607843137254902 0.58823529411764708 0.59999999999999998 5 phong 14 ambient factor -2 1 14 diffuse factor -2 0.75 15 specular factor -2 0.5 8 exponent -2 10 14 specular color -4 1 1 1 4 none 4 none #
+fmesh-eye-attrib $-1 $12 $-1 $6 #
+face $13 $14 $15 $4 $-1 $16 forward single #
+loop $-1 $17 $18 $6 #
+cone-surface $-1 -13 36.094999999999999 -2.75 0 0 -1 0 3.3999999999999999 0 1 I I 0 1 3.3999999999999999 forward I I I I #
+rgb_color-st-attrib $-1 $19 $8 $6 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+fmesh-eye-attrib $-1 $20 $-1 $9 #
+face $21 $22 $23 $4 $-1 $24 forward single #
+loop $-1 $-1 $25 $9 #
+plane-surface $-1 -13 36.094999999999999 -5.5 0 0 -1 0 1 0 forward_v I I I I #
+loop $-1 $-1 $26 $6 #
+coedge $-1 $18 $18 $27 $28 reversed $10 $-1 #
+render-rbase-attrib $-1 $-1 $12 $6 $29 $-1 0 2 0 1 0 -1 0 0 0 -0 1 -13 36.094999999999999 0 1 rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $30 $13 $9 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+fmesh-eye-attrib $-1 $31 $-1 $14 #
+face $32 $33 $34 $4 $-1 $35 forward single #
+loop $-1 $36 $37 $14 #
+cone-surface $-1 13 36.094999999999999 -2.75 0 0 -1 0 3.3999999999999999 0 1 I I 0 1 3.3999999999999999 forward I I I I #
+coedge $-1 $25 $25 $26 $38 forward $15 $-1 #
+coedge $-1 $26 $26 $25 $38 reversed $17 $-1 #
+coedge $-1 $27 $27 $18 $28 forward $39 $-1 #
+edge $40 $41 $41 $27 $42 forward #
+rh_material-rh_entity $-1 4 5 plain 5 color -4 0.5607843137254902 0.58823529411764708 0.59999999999999998 5 phong 14 ambient factor -2 1 14 diffuse factor -2 0.75 15 specular factor -2 0.5 8 exponent -2 10 14 specular color -4 1 1 1 4 none 4 none #
+render-rbase-attrib $-1 $-1 $20 $9 $29 $-1 0 2 0 1 0 -1 0 0 0 -0 1 -13 36.094999999999999 0 1 rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $43 $21 $14 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+fmesh-eye-attrib $-1 $44 $-1 $22 #
+face $45 $46 $47 $4 $-1 $48 forward single #
+loop $-1 $-1 $49 $22 #
+plane-surface $-1 13 36.094999999999999 -5.5 0 0 -1 0 1 0 forward_v I I I I #
+loop $-1 $-1 $50 $14 #
+coedge $-1 $37 $37 $51 $52 reversed $23 $-1 #
+edge $53 $54 $54 $25 $55 forward #
+loop $-1 $56 $27 $57 #
+ptlist-eye-attrib $-1 $-1 $-1 $28 #
+vertex $-1 $28 $58 #
+ellipse-curve $-1 -13 36.094999999999999 0 0 0 1 0 3.3999999999999999 0 1 I I #
+render-rbase-attrib $-1 $-1 $31 $14 $59 $-1 0 2 0 1 0 -1 0 0 0 -0 1 13 36.094999999999999 0 1 rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $60 $32 $22 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+fmesh-eye-attrib $-1 $61 $-1 $33 #
+face $62 $63 $64 $4 $-1 $65 forward single #
+loop $-1 $66 $67 $33 #
+cone-surface $-1 -13 -36.094999999999999 -2.75 0 0 -1 0 3.3999999999999999 0 1 I I 0 1 3.3999999999999999 forward I I I I #
+coedge $-1 $49 $49 $50 $68 forward $34 $-1 #
+coedge $-1 $50 $50 $49 $68 reversed $36 $-1 #
+coedge $-1 $51 $51 $37 $52 forward $56 $-1 #
+edge $69 $70 $70 $51 $71 forward #
+ptlist-eye-attrib $-1 $-1 $-1 $38 #
+vertex $-1 $38 $72 #
+ellipse-curve $-1 -13 36.094999999999999 -5.5 0 0 -1 0 3.3999999999999999 0 1 I I #
+loop $-1 $73 $51 $57 #
+face $74 $-1 $39 $4 $-1 $75 reversed single #
+point $-1 -13 39.494999999999997 0 #
+rh_material-rh_entity $-1 4 5 plain 5 color -4 0.5607843137254902 0.58823529411764708 0.59999999999999998 5 phong 14 ambient factor -2 1 14 diffuse factor -2 0.75 15 specular factor -2 0.5 8 exponent -2 10 14 specular color -4 1 1 1 4 none 4 none #
+render-rbase-attrib $-1 $-1 $44 $22 $59 $-1 0 2 0 1 0 -1 0 0 0 -0 1 13 36.094999999999999 0 1 rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $76 $45 $33 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+fmesh-eye-attrib $-1 $77 $-1 $46 #
+face $78 $79 $80 $4 $-1 $81 forward single #
+loop $-1 $-1 $82 $46 #
+plane-surface $-1 -13 -36.094999999999999 -5.5 0 0 -1 0 1 0 forward_v I I I I #
+loop $-1 $-1 $83 $33 #
+coedge $-1 $67 $67 $84 $85 reversed $47 $-1 #
+edge $86 $87 $87 $49 $88 forward #
+ptlist-eye-attrib $-1 $-1 $-1 $52 #
+vertex $-1 $52 $89 #
+ellipse-curve $-1 13 36.094999999999999 0 0 0 1 0 3.3999999999999999 0 1 I I #
+point $-1 -13 39.494999999999997 -5.5 #
+loop $-1 $90 $84 $57 #
+fmesh-eye-attrib $-1 $91 $-1 $57 #
+plane-surface $-1 -8.8817841970012523e-016 -4.4408920985006262e-016 0 0 0 1 0 1 0 forward_v I I I I #
+render-rbase-attrib $-1 $-1 $61 $33 $92 $-1 0 2 0 1 0 -1 0 0 0 -0 1 -13 -36.094999999999999 0 1 rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $93 $62 $46 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+fmesh-eye-attrib $-1 $94 $-1 $63 #
+face $95 $96 $97 $4 $-1 $98 forward single #
+loop $-1 $99 $100 $63 #
+cone-surface $-1 13 -36.094999999999999 -2.75 0 0 -1 0 3.3999999999999999 0 1 I I 0 1 3.3999999999999999 forward I I I I #
+coedge $-1 $82 $82 $83 $101 forward $64 $-1 #
+coedge $-1 $83 $83 $82 $101 reversed $66 $-1 #
+coedge $-1 $84 $84 $67 $85 forward $73 $-1 #
+edge $102 $103 $103 $84 $104 forward #
+ptlist-eye-attrib $-1 $-1 $-1 $68 #
+vertex $-1 $68 $105 #
+ellipse-curve $-1 13 36.094999999999999 -5.5 0 0 -1 0 3.3999999999999999 0 1 I I #
+point $-1 13 39.494999999999997 0 #
+loop $-1 $106 $107 $57 #
+rgb_color-st-attrib $-1 $108 $74 $57 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+rh_material-rh_entity $-1 4 5 plain 5 color -4 0.5607843137254902 0.58823529411764708 0.59999999999999998 5 phong 14 ambient factor -2 1 14 diffuse factor -2 0.75 15 specular factor -2 0.5 8 exponent -2 10 14 specular color -4 1 1 1 4 none 4 none #
+render-rbase-attrib $-1 $-1 $77 $46 $92 $-1 0 2 0 1 0 -1 0 0 0 -0 1 -13 -36.094999999999999 0 1 rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $109 $78 $63 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+fmesh-eye-attrib $-1 $110 $-1 $79 #
+face $111 $112 $113 $4 $-1 $114 reversed single #
+loop $-1 $-1 $115 $79 #
+plane-surface $-1 13 -36.094999999999999 -5.5 0 0 -1 0 1 0 forward_v I I I I #
+loop $-1 $-1 $116 $63 #
+coedge $-1 $100 $100 $107 $117 reversed $80 $-1 #
+edge $118 $119 $119 $82 $120 forward #
+ptlist-eye-attrib $-1 $-1 $-1 $85 #
+vertex $-1 $85 $121 #
+ellipse-curve $-1 -13 -36.094999999999999 0 0 0 1 0 3.3999999999999999 0 1 I I #
+point $-1 13 39.494999999999997 -5.5 #
+loop $-1 $-1 $122 $57 #
+coedge $-1 $107 $107 $100 $117 forward $90 $-1 #
+render-rbase-attrib $-1 $-1 $91 $57 $7 $-1 0 2 0 1 0 -1 0 0 0 -0 1 0 0 0 1 rotate no_reflect no_shear #
+render-rbase-attrib $-1 $-1 $94 $63 $123 $-1 0 2 0 1 0 -1 0 0 0 -0 1 13 -36.094999999999999 0 1 rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $124 $95 $79 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+fmesh-eye-attrib $-1 $125 $-1 $96 #
+face $126 $127 $128 $4 $-1 $129 reversed single #
+loop $-1 $-1 $130 $96 #
+sphere-surface $-1 18 -53.859999999999999 2 -2 0 -1 0 0 0 1 forward_v I I I I #
+coedge $-1 $115 $115 $116 $131 forward $97 $-1 #
+coedge $-1 $116 $116 $115 $131 reversed $99 $-1 #
+edge $132 $133 $133 $107 $134 forward #
+ptlist-eye-attrib $-1 $-1 $-1 $101 #
+vertex $-1 $101 $135 #
+ellipse-curve $-1 -13 -36.094999999999999 -5.5 0 0 -1 0 3.3999999999999999 0 1 I I #
+point $-1 -13 -32.695 0 #
+coedge $-1 $136 $137 $138 $139 reversed $106 $-1 #
+rh_material-rh_entity $-1 4 5 plain 5 color -4 0.5607843137254902 0.58823529411764708 0.59999999999999998 5 phong 14 ambient factor -2 1 14 diffuse factor -2 0.75 15 specular factor -2 0.5 8 exponent -2 10 14 specular color -4 1 1 1 4 none 4 none #
+render-rbase-attrib $-1 $-1 $110 $79 $123 $-1 0 2 0 1 0 -1 0 0 0 -0 1 13 -36.094999999999999 0 1 rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $140 $111 $96 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+fmesh-eye-attrib $-1 $141 $-1 $112 #
+face $142 $143 $144 $4 $-1 $145 reversed single #
+loop $-1 $-1 $146 $112 #
+cone-surface $-1 22 -53.859999999999999 2 -1 0 0 0 -2 -2.2204460492503131e-016 1 I I 0 -1 2 forward I I I I #
+coedge $-1 $147 $148 $149 $150 reversed $113 $-1 #
+edge $151 $152 $152 $115 $153 forward #
+ptlist-eye-attrib $-1 $-1 $-1 $117 #
+vertex $-1 $117 $154 #
+ellipse-curve $-1 13 -36.094999999999999 0 0 0 1 0 3.3999999999999999 0 1 I I #
+point $-1 -13 -32.695 -5.5 #
+coedge $-1 $155 $122 $156 $157 reversed $106 $-1 #
+coedge $-1 $122 $158 $159 $160 reversed $106 $-1 #
+coedge $-1 $161 $162 $122 $139 forward $163 $-1 #
+edge $164 $165 $166 $138 $167 forward #
+render-rbase-attrib $-1 $-1 $125 $96 $168 $-1 0 2 0 -1 0 1 0 0 -0 0 1 18 -53.859999999999999 2 1 rotate no_reflect no_shear #
+render-rbase-attrib $-1 $169 $126 $112 $170 $-1 0 2 0 -1 0 0 0 1 -1 0 0 22 -55.859999999999999 4 1 rotate no_reflect no_shear #
+fmesh-eye-attrib $-1 $171 $-1 $127 #
+face $172 $173 $174 $4 $-1 $175 reversed single #
+loop $-1 $-1 $176 $127 #
+sphere-surface $-1 18 53.859999999999999 2 -2 1 0 0 0 0 1 forward_v I I I I #
+coedge $-1 $177 $178 $147 $179 forward $128 $-1 #
+coedge $-1 $148 $130 $146 $179 reversed $113 $-1 #
+coedge $-1 $130 $147 $180 $181 forward $113 $-1 #
+coedge $-1 $182 $183 $130 $150 forward $174 $-1 #
+edge $184 $185 $186 $149 $187 forward #
+ptlist-eye-attrib $-1 $-1 $-1 $131 #
+vertex $-1 $131 $188 #
+ellipse-curve $-1 13 -36.094999999999999 -5.5 0 0 -1 0 3.3999999999999999 0 1 I I #
+point $-1 13 -32.695 0 #
+coedge $-1 $189 $136 $190 $191 reversed $106 $-1 #
+coedge $-1 $192 $193 $136 $157 forward $194 $-1 #
+edge $195 $196 $165 $156 $197 forward #
+coedge $-1 $137 $198 $199 $200 reversed $106 $-1 #
+coedge $-1 $201 $202 $137 $160 forward $203 $-1 #
+edge $204 $166 $205 $159 $206 forward #
+coedge $-1 $180 $138 $202 $207 forward $163 $-1 #
+coedge $-1 $138 $180 $192 $208 reversed $163 $-1 #
+loop $-1 $-1 $180 $209 #
+ptlist-eye-attrib $-1 $-1 $-1 $139 #
+vertex $-1 $139 $210 #
+vertex $-1 $139 $211 #
+ellipse-curve $-1 18.000000000000018 -53.860000000000021 0 0 0 1 -1.7763568394002505e-014 -1.9999999999999787 0 1 I I #
+rh_material-rh_entity $-1 4 5 plain 5 color -4 0.5607843137254902 0.58823529411764708 0.59999999999999998 5 phong 14 ambient factor -2 1 14 diffuse factor -2 0.75 15 specular factor -2 0.5 8 exponent -2 10 14 specular color -4 1 1 1 4 none 4 none #
+rgb_color-st-attrib $-1 $-1 $141 $112 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+rh_material-rh_entity $-1 4 5 plain 5 color -4 0.5607843137254902 0.58823529411764708 0.59999999999999998 5 phong 14 ambient factor -2 1 14 diffuse factor -2 0.75 15 specular factor -2 0.5 8 exponent -2 10 14 specular color -4 1 1 1 4 none 4 none #
+rgb_color-st-attrib $-1 $212 $142 $127 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+fmesh-eye-attrib $-1 $213 $-1 $143 #
+face $214 $215 $216 $4 $-1 $217 reversed single #
+loop $-1 $-1 $149 $143 #
+cone-surface $-1 18 -57.859999999999999 2 0 1 0 -2.2204460492503131e-016 0 2 1 I I 0 -1 2 forward I I I I #
+coedge $-1 $218 $219 $220 $221 forward $144 $-1 #
+coedge $-1 $222 $146 $223 $224 reversed $128 $-1 #
+coedge $-1 $146 $222 $225 $226 reversed $128 $-1 #
+edge $227 $228 $185 $146 $229 forward #
+coedge $-1 $162 $161 $148 $181 reversed $163 $-1 #
+edge $230 $228 $186 $180 $231 forward #
+coedge $-1 $232 $149 $233 $234 reversed $174 $-1 #
+coedge $-1 $149 $232 $235 $236 reversed $174 $-1 #
+ptlist-eye-attrib $-1 $-1 $-1 $150 #
+vertex $-1 $236 $237 #
+vertex $-1 $150 $238 #
+ellipse-curve $-1 18 -53.859999999999999 2 0 1 0 0 0 2 1 I I #
+point $-1 13 -32.695 -5.5 #
+coedge $-1 $239 $155 $240 $241 reversed $106 $-1 #
+coedge $-1 $242 $243 $155 $191 forward $244 $-1 #
+edge $245 $246 $196 $190 $247 forward #
+coedge $-1 $225 $156 $162 $208 forward $194 $-1 #
+coedge $-1 $156 $225 $242 $248 reversed $194 $-1 #
+loop $-1 $-1 $225 $249 #
+ptlist-eye-attrib $-1 $-1 $-1 $157 #
+vertex $-1 $191 $250 #
+straight-curve $-1 -18 -55.859999999999999 0 1 0 0 I I #
+coedge $-1 $158 $239 $251 $252 reversed $106 $-1 #
+coedge $-1 $253 $254 $158 $200 forward $255 $-1 #
+edge $256 $205 $257 $199 $258 forward #
+coedge $-1 $233 $159 $254 $259 forward $203 $-1 #
+coedge $-1 $159 $233 $161 $207 reversed $203 $-1 #
+loop $-1 $-1 $233 $260 #
+ptlist-eye-attrib $-1 $-1 $-1 $160 #
+vertex $-1 $160 $261 #
+straight-curve $-1 20 -53.859999999999999 0 0 1 0 I I #
+edge $262 $166 $186 $161 $263 forward #
+edge $264 $165 $228 $192 $265 forward #
+face $266 $267 $163 $4 $-1 $268 forward single #
+point $-1 18 -55.859999999999999 0 #
+point $-1 19.999999999999996 -53.859999999999999 0 #
+render-rbase-attrib $-1 $-1 $171 $127 $269 $-1 0 2 1 0 0 0 1 0 0 0 1 18 53.859999999999999 2 1 no_rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $270 $172 $143 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+fmesh-eye-attrib $-1 $271 $-1 $173 #
+face $272 $273 $274 $4 $-1 $275 reversed single #
+loop $-1 $-1 $220 $173 #
+cone-surface $-1 -22 53.859999999999999 2 1 0 0 0 2 -2.2204460492503131e-016 1 I I 0 -1 2 forward I I I I #
+coedge $-1 $219 $176 $232 $276 forward $144 $-1 #
+coedge $-1 $176 $218 $277 $278 forward $144 $-1 #
+coedge $-1 $279 $280 $176 $221 reversed $216 $-1 #
+edge $281 $282 $283 $220 $284 forward #
+coedge $-1 $178 $177 $285 $286 reversed $128 $-1 #
+coedge $-1 $235 $287 $177 $224 forward $288 $-1 #
+edge $289 $290 $185 $223 $291 forward #
+coedge $-1 $193 $192 $178 $226 forward $194 $-1 #
+edge $292 $228 $293 $225 $294 forward #
+ptlist-eye-attrib $-1 $-1 $-1 $179 #
+vertex $-1 $179 $295 #
+ellipse-curve $-1 18 -53.859999999999999 2 -1 0 0 0 -2 -2.2204460492503131e-016 1 I I #
+ptlist-eye-attrib $-1 $-1 $-1 $181 #
+ellipse-curve $-1 18.000000000000018 -53.860000000000021 2 0 0 1 -1.7763568394002505e-014 -1.9999999999999787 0 1 I I #
+coedge $-1 $183 $182 $218 $276 reversed $174 $-1 #
+coedge $-1 $202 $201 $182 $234 forward $203 $-1 #
+edge $296 $297 $186 $233 $298 forward #
+coedge $-1 $299 $223 $183 $236 forward $288 $-1 #
+edge $300 $185 $283 $235 $301 forward #
+point $-1 18 -53.859999999999999 4 #
+point $-1 19.999999999999996 -53.859999999999999 1.9999999999999996 #
+coedge $-1 $198 $189 $302 $303 reversed $106 $-1 #
+coedge $-1 $304 $305 $189 $241 forward $306 $-1 #
+edge $307 $308 $246 $240 $309 forward #
+coedge $-1 $310 $190 $193 $248 forward $244 $-1 #
+coedge $-1 $190 $310 $304 $311 reversed $244 $-1 #
+loop $-1 $-1 $310 $312 #
+ptlist-eye-attrib $-1 $-1 $-1 $191 #
+vertex $-1 $241 $313 #
+ellipse-curve $-1 -18 -53.859999999999999 0 0 0 1 -2 0 0 1 I I #
+edge $314 $196 $293 $242 $315 forward #
+face $316 $317 $194 $4 $-1 $318 forward single #
+point $-1 -18 -55.859999999999999 0 #
+coedge $-1 $319 $320 $198 $252 forward $321 $-1 #
+edge $322 $257 $323 $251 $324 forward #
+coedge $-1 $277 $199 $320 $325 forward $255 $-1 #
+coedge $-1 $199 $277 $201 $259 reversed $255 $-1 #
+loop $-1 $-1 $277 $326 #
+ptlist-eye-attrib $-1 $-1 $-1 $200 #
+vertex $-1 $200 $327 #
+ellipse-curve $-1 18 53.859999999999999 0 0 0 1 2 0 0 1 I I #
+edge $328 $205 $297 $201 $329 forward #
+face $330 $209 $203 $4 $-1 $331 forward single #
+point $-1 20 53.859999999999999 0 #
+ptlist-eye-attrib $-1 $-1 $-1 $207 #
+straight-curve $-1 19.999999999999996 -53.859999999999999 0 0 0 1 I I #
+ptlist-eye-attrib $-1 $-1 $-1 $208 #
+straight-curve $-1 18 -55.859999999999999 0 0 0 1 I I #
+fmesh-eye-attrib $-1 $332 $-1 $209 #
+face $333 $334 $306 $4 $-1 $335 forward single #
+cone-surface $-1 18.000000000000018 -53.860000000000021 0 0 0 1 -1.7763568394002505e-014 -1.9999999999999787 0 1 I I 0 1 1.9999999999999787 forward I I I I #
+rh_material-rh_entity $-1 4 5 plain 5 color -4 0.5607843137254902 0.58823529411764708 0.59999999999999998 5 phong 14 ambient factor -2 1 14 diffuse factor -2 0.75 15 specular factor -2 0.5 8 exponent -2 10 14 specular color -4 1 1 1 4 none 4 none #
+render-rbase-attrib $-1 $-1 $213 $143 $336 $-1 0 2 0 0 1 1 0 0 0 1 0 20 -57.859999999999999 4 1 rotate no_reflect no_shear #
+render-rbase-attrib $-1 $337 $214 $173 $338 $-1 0 2 0 1 0 0 0 1 1 0 0 -22 55.859999999999999 4 1 rotate no_reflect no_shear #
+fmesh-eye-attrib $-1 $339 $-1 $215 #
+face $340 $341 $342 $4 $-1 $343 reversed single #
+loop $-1 $-1 $344 $215 #
+sphere-surface $-1 -18 53.859999999999999 2 -2 0 1 0 0 0 1 forward_v I I I I #
+edge $345 $283 $297 $232 $346 forward #
+coedge $-1 $254 $253 $219 $278 reversed $255 $-1 #
+edge $347 $297 $282 $277 $348 forward #
+coedge $-1 $349 $220 $350 $351 reversed $216 $-1 #
+coedge $-1 $220 $349 $299 $352 reversed $216 $-1 #
+ptlist-eye-attrib $-1 $-1 $-1 $221 #
+vertex $-1 $351 $353 #
+vertex $-1 $352 $354 #
+ellipse-curve $-1 18 53.859999999999999 2 1 0 0 0 2 -2.2204460492503131e-016 1 I I #
+coedge $-1 $355 $356 $222 $286 forward $342 $-1 #
+edge $357 $293 $290 $222 $358 forward #
+coedge $-1 $223 $299 $359 $360 forward $288 $-1 #
+loop $-1 $-1 $223 $361 #
+ptlist-eye-attrib $-1 $-1 $-1 $224 #
+vertex $-1 $224 $362 #
+straight-curve $-1 0 -53.859999999999999 4 1 0 0 I I #
+ptlist-eye-attrib $-1 $-1 $-1 $226 #
+vertex $-1 $226 $363 #
+straight-curve $-1 11 -55.859999999999999 2 -1 -0 -0 I I #
+point $-1 18.000000000000021 -55.859999999999999 2 #
+ptlist-eye-attrib $-1 $-1 $-1 $234 #
+vertex $-1 $278 $364 #
+straight-curve $-1 20 0 2 0 -1 0 I I #
+coedge $-1 $287 $235 $280 $352 forward $288 $-1 #
+ptlist-eye-attrib $-1 $-1 $-1 $236 #
+straight-curve $-1 18 -28.93 4 0 1 -0 I I #
+coedge $-1 $365 $366 $239 $303 forward $367 $-1 #
+edge $368 $323 $308 $302 $369 forward #
+coedge $-1 $370 $240 $243 $311 forward $306 $-1 #
+coedge $-1 $240 $370 $365 $371 reversed $306 $-1 #
+loop $-1 $-1 $370 $267 #
+ptlist-eye-attrib $-1 $-1 $-1 $241 #
+vertex $-1 $303 $372 #
+straight-curve $-1 -20 53.859999999999999 0 0 -1 0 I I #
+coedge $-1 $243 $242 $356 $373 reversed $244 $-1 #
+edge $374 $246 $375 $304 $376 forward #
+face $377 $361 $244 $4 $-1 $378 forward single #
+point $-1 -20 -53.859999999999999 0 #
+ptlist-eye-attrib $-1 $-1 $-1 $248 #
+straight-curve $-1 -18 -55.859999999999999 0 0 0 1 I I #
+fmesh-eye-attrib $-1 $379 $-1 $249 #
+face $380 $57 $321 $4 $-1 $381 forward single #
+plane-surface $-1 0 -55.859999999999999 0 0 -1 0 1 0 0 forward_v I I I I #
+coedge $-1 $350 $251 $366 $382 forward $321 $-1 #
+coedge $-1 $251 $350 $253 $325 reversed $321 $-1 #
+loop $-1 $-1 $350 $317 #
+ptlist-eye-attrib $-1 $-1 $-1 $252 #
+vertex $-1 $252 $383 #
+straight-curve $-1 18 55.859999999999999 0 -1 0 0 I I #
+edge $384 $257 $282 $253 $385 forward #
+face $386 $260 $255 $4 $-1 $387 forward single #
+point $-1 18 55.859999999999999 0 #
+ptlist-eye-attrib $-1 $-1 $-1 $259 #
+straight-curve $-1 20 53.859999999999999 0 0 0 1 I I #
+fmesh-eye-attrib $-1 $388 $-1 $260 #
+plane-surface $-1 20 0 0 1 0 0 0 1 0 forward_v I I I I #
+render-rbase-attrib $-1 $389 $266 $209 $7 $-1 0 2 0 1 0 -1 0 0 0 -0 1 0 0 0 1 rotate no_reflect no_shear #
+fmesh-eye-attrib $-1 $390 $-1 $267 #
+face $391 $249 $367 $4 $-1 $392 forward single #
+plane-surface $-1 -20 0 0 -1 0 0 0 -1 0 forward_v I I I I #
+rh_material-rh_entity $-1 4 5 plain 5 color -4 0.5607843137254902 0.58823529411764708 0.59999999999999998 5 phong 14 ambient factor -2 1 14 diffuse factor -2 0.75 15 specular factor -2 0.5 8 exponent -2 10 14 specular color -4 1 1 1 4 none 4 none #
+rgb_color-st-attrib $-1 $-1 $271 $173 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+rh_material-rh_entity $-1 4 5 plain 5 color -4 0.5607843137254902 0.58823529411764708 0.59999999999999998 5 phong 14 ambient factor -2 1 14 diffuse factor -2 0.75 15 specular factor -2 0.5 8 exponent -2 10 14 specular color -4 1 1 1 4 none 4 none #
+rgb_color-st-attrib $-1 $393 $272 $215 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+fmesh-eye-attrib $-1 $394 $-1 $273 #
+face $395 $312 $396 $4 $-1 $397 reversed single #
+loop $-1 $-1 $285 $273 #
+sphere-surface $-1 -18 -53.859999999999999 2 -2 -1 0 0 0 0 1 forward_v I I I I #
+coedge $-1 $398 $399 $400 $401 reversed $274 $-1 #
+ptlist-eye-attrib $-1 $-1 $-1 $276 #
+ellipse-curve $-1 18 53.859999999999999 2 0 1 0 0 0 2 1 I I #
+ptlist-eye-attrib $-1 $-1 $-1 $278 #
+ellipse-curve $-1 18 53.859999999999999 2 0 0 1 2 0 0 1 I I #
+coedge $-1 $280 $279 $398 $402 forward $216 $-1 #
+coedge $-1 $320 $319 $279 $351 forward $321 $-1 #
+edge $403 $404 $282 $350 $405 forward #
+edge $406 $283 $407 $299 $408 forward #
+point $-1 18 55.859999999999999 2 #
+point $-1 18 53.859999999999999 4 #
+coedge $-1 $356 $285 $409 $410 forward $342 $-1 #
+coedge $-1 $285 $355 $310 $373 forward $342 $-1 #
+ptlist-eye-attrib $-1 $-1 $-1 $286 #
+ellipse-curve $-1 -18 -53.859999999999999 2 -1 0 0 0 -2 -2.2204460492503131e-016 1 I I #
+coedge $-1 $400 $409 $287 $360 reversed $396 $-1 #
+edge $411 $407 $290 $287 $412 forward #
+face $413 $326 $288 $4 $-1 $414 forward single #
+point $-1 -18 -53.859999999999992 4 #
+point $-1 -18 -55.859999999999999 2 #
+point $-1 20 53.859999999999999 2 #
+coedge $-1 $415 $302 $305 $371 forward $367 $-1 #
+coedge $-1 $302 $415 $319 $382 reversed $367 $-1 #
+loop $-1 $-1 $415 $334 #
+ptlist-eye-attrib $-1 $-1 $-1 $303 #
+ellipse-curve $-1 -18.000000000000018 53.860000000000021 0 0 0 1 1.7763568394002505e-014 1.9999999999999787 0 1 I I #
+coedge $-1 $305 $304 $416 $417 forward $306 $-1 #
+edge $418 $308 $419 $365 $420 forward #
+point $-1 -19.999999999999996 53.859999999999999 0 #
+edge $421 $375 $293 $310 $422 forward #
+ptlist-eye-attrib $-1 $-1 $-1 $311 #
+vertex $-1 $373 $423 #
+straight-curve $-1 -20 -53.859999999999999 0 0 0 1 I I #
+fmesh-eye-attrib $-1 $424 $-1 $312 #
+cone-surface $-1 -18 -53.859999999999999 0 0 0 1 -2 0 0 1 I I 0 1 2 forward I I I I #
+rgb_color-st-attrib $-1 $425 $316 $249 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+fmesh-eye-attrib $-1 $426 $-1 $317 #
+plane-surface $-1 0 55.859999999999999 0 0 1 0 -1 0 0 forward_v I I I I #
+edge $427 $323 $404 $319 $428 forward #
+point $-1 -18 55.859999999999999 0 #
+ptlist-eye-attrib $-1 $-1 $-1 $325 #
+straight-curve $-1 18 55.859999999999999 0 0 0 1 I I #
+fmesh-eye-attrib $-1 $429 $-1 $326 #
+cone-surface $-1 18 53.859999999999999 0 0 0 1 2 0 0 1 I I 0 1 2 forward I I I I #
+render-rbase-attrib $-1 $430 $330 $260 $7 $-1 0 2 0 1 0 -1 0 0 0 -0 1 0 0 0 1 rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $-1 $332 $209 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+render-rbase-attrib $-1 $431 $333 $267 $7 $-1 0 2 0 1 0 -1 0 0 0 -0 1 0 0 0 1 rotate no_reflect no_shear #
+fmesh-eye-attrib $-1 $432 $-1 $334 #
+cone-surface $-1 -18.000000000000018 53.860000000000021 0 0 0 1 1.7763568394002505e-014 1.9999999999999787 0 1 I I 0 1 1.9999999999999787 forward I I I I #
+render-rbase-attrib $-1 $-1 $339 $215 $433 $-1 0 2 0 1 0 -1 0 0 0 -0 1 -18 53.859999999999999 2 1 rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $434 $340 $273 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+fmesh-eye-attrib $-1 $435 $-1 $341 #
+loop $-1 $-1 $400 $341 #
+cone-surface $-1 -18 57.859999999999999 2 0 -1 0 2.2204460492503131e-016 0 2 1 I I 0 -1 2 forward I I I I #
+coedge $-1 $399 $344 $349 $402 reversed $274 $-1 #
+coedge $-1 $344 $398 $415 $436 forward $274 $-1 #
+coedge $-1 $416 $359 $344 $401 forward $396 $-1 #
+edge $437 $407 $419 $400 $438 forward #
+edge $439 $404 $407 $349 $440 forward #
+ptlist-eye-attrib $-1 $-1 $-1 $351 #
+vertex $-1 $402 $441 #
+straight-curve $-1 -11 55.859999999999999 2 1 -0 0 I I #
+ptlist-eye-attrib $-1 $-1 $-1 $352 #
+vertex $-1 $360 $442 #
+straight-curve $-1 0 53.859999999999999 4 -1 0 0 I I #
+coedge $-1 $359 $416 $355 $410 reversed $396 $-1 #
+edge $443 $290 $375 $409 $444 forward #
+ptlist-eye-attrib $-1 $-1 $-1 $360 #
+straight-curve $-1 -18 28.93 4 0 -1 0 I I #
+fmesh-eye-attrib $-1 $445 $-1 $361 #
+plane-surface $-1 -2.44045560686645e-016 8.8817841970012523e-016 4 0 0 1 0 1 0 forward_v I I I I #
+coedge $-1 $366 $365 $399 $436 reversed $367 $-1 #
+coedge $-1 $409 $400 $370 $417 reversed $396 $-1 #
+edge $446 $375 $419 $370 $447 forward #
+ptlist-eye-attrib $-1 $-1 $-1 $371 #
+vertex $-1 $401 $448 #
+straight-curve $-1 -19.999999999999996 53.859999999999999 0 0 0 1 I I #
+ptlist-eye-attrib $-1 $-1 $-1 $373 #
+ellipse-curve $-1 -18 -53.859999999999999 2 0 0 1 -2 0 0 1 I I #
+point $-1 -20 -53.859999999999999 2 #
+render-rbase-attrib $-1 $449 $377 $312 $7 $-1 0 2 0 1 0 -1 0 0 0 -0 1 0 0 0 1 rotate no_reflect no_shear #
+render-rbase-attrib $-1 $-1 $379 $249 $7 $-1 0 2 0 1 0 -1 0 0 0 -0 1 0 0 0 1 rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $450 $380 $317 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+ptlist-eye-attrib $-1 $-1 $-1 $382 #
+straight-curve $-1 -18 55.859999999999999 0 0 0 1 I I #
+render-rbase-attrib $-1 $451 $386 $326 $7 $-1 0 2 0 1 0 -1 0 0 0 -0 1 0 0 0 1 rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $-1 $388 $260 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+rgb_color-st-attrib $-1 $-1 $390 $267 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+render-rbase-attrib $-1 $452 $391 $334 $7 $-1 0 2 0 1 0 -1 0 0 0 -0 1 0 0 0 1 rotate no_reflect no_shear #
+rh_material-rh_entity $-1 4 5 plain 5 color -4 0.5607843137254902 0.58823529411764708 0.59999999999999998 5 phong 14 ambient factor -2 1 14 diffuse factor -2 0.75 15 specular factor -2 0.5 8 exponent -2 10 14 specular color -4 1 1 1 4 none 4 none #
+render-rbase-attrib $-1 $-1 $394 $273 $453 $-1 0 2 -1 0 0 0 -1 0 0 0 1 -18 -53.859999999999999 2 1 rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $454 $395 $341 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+edge $455 $404 $419 $415 $456 forward #
+ptlist-eye-attrib $-1 $-1 $-1 $401 #
+ellipse-curve $-1 -18 53.859999999999999 2 0 -1 0 0 0 2 1 I I #
+ptlist-eye-attrib $-1 $-1 $-1 $402 #
+ellipse-curve $-1 -18 53.859999999999999 2 1 0 0 0 2 -2.2204460492503131e-016 1 I I #
+point $-1 -18.000000000000021 55.859999999999999 2 #
+point $-1 -18 53.859999999999999 4 #
+ptlist-eye-attrib $-1 $-1 $-1 $410 #
+ellipse-curve $-1 -18 -53.859999999999999 2 0 -1 0 0 0 2 1 I I #
+rgb_color-st-attrib $-1 $457 $413 $361 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+ptlist-eye-attrib $-1 $-1 $-1 $417 #
+straight-curve $-1 -20 0 2 -0 1 0 I I #
+point $-1 -19.999999999999996 53.859999999999999 1.9999999999999996 #
+rgb_color-st-attrib $-1 $-1 $424 $312 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+render-rbase-attrib $-1 $-1 $426 $317 $7 $-1 0 2 0 1 0 -1 0 0 0 -0 1 0 0 0 1 rotate no_reflect no_shear #
+rgb_color-st-attrib $-1 $-1 $429 $326 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+rgb_color-st-attrib $-1 $-1 $432 $334 0.5607843137254902 0.58823529411764708 0.59999999999999998 #
+rh_material-rh_entity $-1 4 5 plain 5 color -4 0.5607843137254902 0.58823529411764708 0.59999999999999998 5 phong 14 ambient factor -2 1 14 diffuse factor -2 0.75 15 specular factor -2 0.5 8 exponent -2 10 14 specular color -4 1 1 1 4 none 4 none #
+render-rbase-attrib $-1 $-1 $435 $341 $458 $-1 0 2 0 0 1 -1 0 0 0 -1 0 -20 57.859999999999999 4 1 rotate no_reflect no_shear #
+ptlist-eye-attrib $-1 $-1 $-1 $436 #
+ellipse-curve $-1 -18.000000000000018 53.860000000000021 2 0 0 1 1.7763568394002505e-014 1.9999999999999787 0 1 I I #
+render-rbase-attrib $-1 $-1 $445 $361 $7 $-1 0 2 0 1 0 -1 0 0 0 -0 1 0 0 0 1 rotate no_reflect no_shear #
+rh_material-rh_entity $-1 4 5 plain 5 color -4 0.5607843137254902 0.58823529411764708 0.59999999999999998 5 phong 14 ambient factor -2 1 14 diffuse factor -2 0.75 15 specular factor -2 0.5 8 exponent -2 10 14 specular color -4 1 1 1 4 none 4 none #
+End-of-ACIS-data 
