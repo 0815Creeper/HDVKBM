@@ -1,0 +1,18 @@
+﻿Studie Statikanalyse:1_Plausibiltätsprüfung,Vergleich mit Balkenrechner gestartet: 02.02.2025, 10:16:59
+Anzahl Konfigurationen: 1
+Standardnetz: 12343 Elemente, 20432 Knoten
+Berechnungszeit 3.9s
+Konvergenzrate: 50%
+Gesamtzahl der H Verfeinerungen  erreicht
+Studie        Worst Jacobian ratio :  1  on element 1 abgeschlossen: 02.02.2025, 10:17:06
+Gesamtzeit 0:00:07
+
+Studie Statikanalyse:1_Plausibiltätsprüfung,Vergleich mit Balkenrechner, Last-Mitte gestartet: 02.02.2025, 11:04:26
+Anzahl Konfigurationen: 1
+Standardnetz: 12515 Elemente, 20654 Knoten
+Berechnungszeit 3.8s
+Konvergenzrate: 50%
+Gesamtzahl der H Verfeinerungen  erreicht
+Studie Statikanalyse:1_Plausibiltätsprüfung,Vergleich mit Balkenrechner, Last-Mitte abgeschlossen: 02.02.2025, 11:04:30
+Gesamtzeit 0:00:04
+
