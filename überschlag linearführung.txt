@@ -1,0 +1,21 @@
+Annahmen: 
+maximale Kraftaufprägung am Bedienhebel: 500N, DIN 33 401 sagt einhändig 70-80N und beidhändig 140N
+Länge Bedienhebbel max 20cm von schiene, plus <10cm hinten zu seilen mit gegenkraft die zu errechnen wäre (Anlaufmoment der Lager) => 0,2*200n+?=40Nm+? hochachse
+Moment entlang der Schiene: 40Nm weil schlitten direkt unter Lastpunkt
+Quermoment: Gegenkraft Anlaufmoment*0,2m=? bzw. 0,2*200=40Nm
+Längskraft (Gegen die Klemmung) Regulär 40N (11,5°) ;Max 200N
+Querkraft: 200N
+Hochkraft: maximale Katzenlast
+
+drylin 10-30
+
+auszugskraft seilrolle: 200N
+
+Hebel 45° nach hinten, 220mm von Drehachse plus höhe drehachse über linearebene +29mm:
+
+sin(45°)=0.71; 185mm*500N=92,6Nm, => 40er statt 30er drylin W
+
+20mm vierkant (2mm Wandstärke) hebel mit 500N bei 220mm ergibt eine Spannung von 165-175N/mm2 (mit 5-10mm Loch) -> bei Zugfestigkeit von >200 akzeptabel
+Kugeleinsatz: 60N/mm2 -> evtl verstärken?
+
+Berechnungen teilweise obszolet nach redesign des Hebels, siehe Portfolio

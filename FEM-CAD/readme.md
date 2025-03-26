@@ -1,0 +1,1 @@
+Inventor FEM Analysen sind in den Zipfiles eingelagert (git Größenbeschränkung). Diese sind zuerst zu entpachen, bevor die Baugruppen in Inventor geöffnet werden

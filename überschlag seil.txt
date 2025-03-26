@@ -1,0 +1,39 @@
+Aramid:
+Bruchdehnung 2-4%
+Bruchkraft 1,7-1,9kN
+
+Es sind 4 Seile mit je 2,5m (2 links herum, 2 rechts herum)
+
+1700N/(0,04*2,5m)=17N/mm 1900/(0,02*2,5m)=38N/mm
+Federkonstante für 2,5m linear: 17 bis 38 N/mm
+Ersatzfederkonstante für ganzen Zug (Parallelschaltung): 70-150N/mm
+
+Zusammenhang etwa: dehnung[%]^2=kraft[%_bruchlast] => im niedirgeren Kraftbereich eher mehr dehnung, also weichere Feder
+
+Arbeitsdehnung 1,5%
+
+Überlegungen obszolet durch Ersetzen der Seilspanner gegen kontinuierlich verstellbare Spannschlösser (siehe Portfolio)
+
+
+
+
+
+Anlaufmoment je Lager (nach SKF)
+624-2Z (290N statische Tragzahl) und 624
+Axiale Last in N: Reibmoment beim Start in Nmm
+10: 0,01
+25: 0,05
+50: 0,15
+75: 0,29
+100:0,47
+150:1,17
+200:1,89
+250:2,75
+
+Verkanten des Schlittens: 
+igidur J: \mu = 0,19
+schlitten breite = 65mm
+65mm / (2*0,19) = 171mm
+-> sicherstellen, dass abstand Hebel zu Führung < 171mm
+
+Überlegung obszolet nach Redesign des Schlittens (siehe Portfolio)

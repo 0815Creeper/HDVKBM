@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Schraubenverbindungs-Generator</title>
+<meta charset="UTF-8">
+<style>
+body,p,table,th,td,h1,h2,h3,h4,h5{font-weight: normal; font-size: 10pt; font-family: Tahoma, Arial, Helvetica, sans-serif}
+body{color: #000000; background-color: #ffffff}
+h1{font-weight: bold; font-size: 145%; margin-bottom: 1em}
+h2{font-weight: bold; font-size: 130%; margin-bottom: 0.6em}
+h3{font-weight: bold; font-size: 120%; margin-bottom: 0.5em}
+h4{font-weight: bold; font-size: 110%; margin-bottom: 0.5em}
+h5{font-weight: bold; font-size: 100%; margin-bottom: 0.5em}
+p{margin: 0.5em 0em 0.3em 0em; line-height: 100%}
+blockquote{margin: 0em 0em 0em 1em; font-size: 100%; line-height: 100%; direction: ltr}
+.ta{border: dodgerblue 1px solid; border-collapse: collapse; background-color: #d9e6ff}
+.ta td,.ta th{border: dodgerblue 1px solid; padding: 2pt; valign: top}
+.ta0{border: 0px; margin-top: -4px; margin-bottom: -4px}
+.ta0 td{border: 0px; valign: top}
+.collapsed{background: url("data:image/gif;base64,R0lGODlhCQAJAIAAAAAAAP///yH5BAEAAAEALAAAAAAJAAkAAAIRhI+hG7bwoJINIktzjizeUwAAOw==") left center no-repeat; display: block; padding: 0 0 0 14px; cursor: pointer}
+.expanded{background: url("data:image/gif;base64,R0lGODlhCQAJAIAAAAAAAP///yH5BAEAAAEALAAAAAAJAAkAAAIQhI+hG8brXgPzTHllfKiDAgA7") left center no-repeat; display: block; padding: 0 0 0 14px; cursor: pointer}
+</style>
+<script type="text/javascript">
+var toggle = function(e) {
+	var elem = e.target;
+	var elemNext = elem.nextElementSibling;
+	if (elemNext){
+		var st = elemNext.style;
+		if (st)
+			if (st.display == "none"){
+				elem.className = "expanded";
+				st.removeProperty("display");
+			}else{
+				elem.className = "collapsed";
+				st.display = "none";
+			}
+	}
+}
+window.onload = function() {
+	var elems = document.getElementsByClassName("expanded");
+	for(var i = 0; i < elems.length; i++) {
+		var elem = elems[i]
+		elem.onclick = toggle;
+		var elemNext = elem.nextElementSibling;
+		if (elemNext){
+			var st = elemNext.style;
+			if (st)
+				st.removeProperty("display");
+		}
+	}
+	elems = document.getElementsByClassName("collapsed");
+	for(var i = 0; i < elems.length; i++) {
+		var elem = elems[i]
+		elem.onclick = toggle;
+		var elemNext = elem.nextElementSibling;
+		if (elemNext){
+			var st = elemNext.style;
+			if (st)
+				st.display = "none";
+		}
+	}
+}</script>
+</head>
+<body>
+<h1>Schraubenverbindungs-Generator (Version: 2025 (Build 290162010, 162A))</h1>
+<p>29.01.2025</p>
+<hr>
+<h3 class="collapsed">Projektinfo (iProperties)</h3>
+<blockquote style="display: none;">
+	<h5 class="collapsed">Übersicht</h5>
+	<blockquote style="display: none;">
+	<table class="ta">
+		<tbody><tr>
+		<td>Titel</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Thema</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Autor</td>
+		<td>Admin</td>
+		</tr>
+		<tr>
+		<td>Manager</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Firma</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Kategorie</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Schlüsselwörter</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Kommentare</td>
+		<td></td>
+		</tr>
+	</tbody></table>
+	</blockquote>
+	<h5 class="collapsed">Projekt</h5>
+	<blockquote style="display: none;">
+	<table class="ta">
+		<tbody><tr>
+		<td>Bauteilnummer</td>
+		<td>Schlitten</td>
+		</tr>
+		<tr>
+		<td>Bestandsnummer</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Beschreibung</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Revisionsnummer</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Projekt</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Konstrukteur</td>
+		<td>Admin</td>
+		</tr>
+		<tr>
+		<td>Ingenieur</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Bevollmächtigter</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Kostenstelle</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Geschätzte Kosten</td>
+		<td>0,00 €</td>
+		</tr>
+		<tr>
+		<td>Erstellungsdatum</td>
+		<td>25.11.2024</td>
+		</tr>
+		<tr>
+		<td>Zulieferer</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Web-Verknüpfung</td>
+		<td></td>
+		</tr>
+	</tbody></table>
+	</blockquote>
+	<h5 class="collapsed">Status</h5>
+	<blockquote style="display: none;">
+	<table class="ta">
+		<tbody><tr>
+		<td>Status</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Konstruktionsstatus</td>
+		<td>1</td>
+		</tr>
+		<tr>
+		<td>Zuletzt gespeichert von</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Geprüft von</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Konstruktion genehmigt von</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Genehmigungsdatum Konstr.</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Name des Bauteiltyps</td>
+		<td>Assembly</td>
+		</tr>
+		<tr>
+		<td>Fertigung genehmigt von</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Genehmigungsdatum Fertig.</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Norm</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Hersteller</td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>Normen - Organisation</td>
+		<td></td>
+		</tr>
+	</tbody></table>
+	</blockquote>
+</blockquote>
+<h3 class="expanded">Statikberechnung</h3>
+<blockquote>
+<h5 class="expanded">Führung</h5>
+<blockquote>
+ <p>Typ der Festigkeitsberechnung - Kontrollberechnung</p>
+</blockquote>
+<h5 class="expanded">Belastungen</h5>
+<blockquote>
+<table class="ta">
+<tbody><tr>
+<td> Anziehkoeffizient</td>
+<td>k</td>
+<td align="center"><font color="magenta">1,00 oE</font></td></tr>
+<tr>
+<td>  Maximale Axialkraft</td>
+<td>F<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">a</span></td>
+<td align="center"><font color="magenta">500 N</font></td></tr>
+<tr>
+<td>  Kraftaufwandkoeffizient</td>
+<td>n</td>
+<td align="center"><font color="magenta">1,00 oE</font></td></tr>
+<tr>
+<td>  Maximale Tangentialkraft</td>
+<td>F<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">t</span></td>
+<td align="center"><font color="magenta">500 N</font></td></tr>
+<tr>
+<td>  Reibungskoeffizient der Verbindung</td>
+<td>f</td>
+<td align="center"><font color="magenta">1,00 oE</font></td></tr></tbody></table>
+</blockquote>
+<h5 class="expanded">Schraube</h5>
+<blockquote>
+<table class="ta">
+<tbody><tr>
+<td>Anzahl der Schrauben</td>
+<td>z</td>
+<td align="center"><font color="magenta">2 oE</font></td></tr>
+<tr>
+<td>Gewindedurchmesser</td>
+<td>d</td>
+<td align="center"><font color="magenta">3,000 mm</font></td></tr>
+<tr>
+<td>Gewindesteigung</td>
+<td>p</td>
+<td align="center"><font color="black">0,500 mm</font></td></tr>
+<tr>
+<td>Mittlerer Schraubendurchmesser</td>
+<td>d<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">s</span></td>
+<td align="center"><font color="black">2,675 mm</font></td></tr>
+<tr>
+<td>Minimaler Schraubendurchmesser</td>
+<td>d<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">min</span></td>
+<td align="center"><font color="black">2,387 mm</font></td></tr>
+<tr>
+<td>Material</td>
+<td></td>
+<td align="center"><font color="magenta">Stahl SAE 4340</font></td></tr>
+<tr>
+<td>Streckgrenze</td>
+<td>S<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">y</span></td>
+<td align="center"><font color="black">862 MPa</font></td></tr>
+<tr>
+<td>Erforderlicher Sicherheitsfaktor</td>
+<td>k<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">s</span></td>
+<td align="center"><font color="magenta">1,50 oE</font></td></tr>
+<tr>
+<td>Zulässiger Gewindedruck</td>
+<td>p<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">a</span></td>
+<td align="center"><font color="magenta">77 MPa</font></td></tr>
+<tr>
+<td>Elastizitätsmodul</td>
+<td>E</td>
+<td align="center"><font color="black">207000 MPa</font></td></tr>
+<tr>
+<td>  Reibungskoeffizient im Gewinde</td>
+<td>f<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">1</span></td>
+<td align="center"><font color="magenta">0,20 oE</font></td></tr>
+<tr>
+<td>Reibungskoeff. in d. Aufsetzfläche</td>
+<td>f<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">2</span></td>
+<td align="center"><font color="magenta">0,25 oE</font></td></tr>
+</tbody></table>
+</blockquote>
+<h5 class="expanded">Material</h5>
+<blockquote>
+<table class="ta">
+<tbody><tr>
+<td>Funktionale Verbindungsbreite</td>
+<td>L</td>
+<td align="center"><font color="black">7,900 mm</font></td></tr>
+<tr>
+<td>Elastizitätsmodul</td>
+<td>E</td>
+<td align="center"><font color="magenta">73000 MPa</font></td></tr>
+</tbody></table>
+</blockquote>
+<h5 class="expanded">Ergebnisse</h5>
+<blockquote>
+<table class="ta">
+<tbody><tr>
+<td>Vorspannkraft</td>
+<td>F<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">v</span></td>
+<td align="center"><font color="black">385,882 N</font></td></tr>
+<tr>
+<td>Arbeitskraft</td>
+<td>F<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">max</span></td>
+<td align="center"><font color="black">500,000 N</font></td></tr>
+<tr>
+<td>Erforderliches Anziehmoment</td>
+<td>M<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">u</span></td>
+<td align="center"><font color="black">0,357 N m</font></td></tr>
+<tr>
+<td>Zugspannung</td>
+<td>σ<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">t</span></td>
+<td align="center"><font color="black">86,262 MPa</font></td></tr>
+<tr>
+<td>Torsionsspannung</td>
+<td>τ<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">k</span></td>
+<td align="center"><font color="black">57,801 MPa</font></td></tr>
+<tr>
+<td>Reduzierte Spannung</td>
+<td>σ<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">red</span></td>
+<td align="center"><font color="black">132,152 MPa</font></td></tr>
+<tr>
+<td>Spannung bei maximaler Kraft</td>
+<td>σ<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">max</span></td>
+<td align="center"><font color="black">111,772 MPa</font></td></tr>
+<tr>
+<td>Gewindedruck</td>
+<td>p<span style="FONT-SIZE: smaller; VERTICAL-ALIGN: sub">c</span></td>
+<td align="center"><font color="black">44,889 MPa</font></td></tr>
+<tr>
+<td>Festigkeitskontrolle</td>
+<td></td>
+<td align="center" colspan="2"><font color="green">Positiv</font></td></tr></tbody></table>
+</blockquote>
+</blockquote>
+
+<h3 class="expanded">Zusammenfassung der Meldungen</h3>
+<blockquote>
+<table class="ta">
+<tbody><tr><td><p><font color="blue">21:51:53 Berechnung: Berechnung deutet auf Konstruktionsübereinstimmung hin.</font></p></td></tr>
+</tbody></table>
+</blockquote>
+
+</body></html>
